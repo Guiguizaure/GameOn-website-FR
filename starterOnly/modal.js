@@ -56,7 +56,7 @@ const verifFirstName = function(firstName){
 
   const errorMessage = firstName.nextElementSibling;
 
-  if(firstName.value === "" || firstName.value.lenght < 2){
+  if(firstName.value === "" || firstName.value.length < 2){
 
     errorMessage.style.display = "inline-block";
     return resultFirstName = false;
@@ -72,7 +72,7 @@ const verifLastName = function(lastName){
 
   const errorMessage = lastName.nextElementSibling;
 
-  if(lastName.value === "" || lastName.value.lenght < 2){
+  if(lastName.value === "" || lastName.value.length < 2){
 
     errorMessage.style.display = "inline-block";
     return resultLastName = false;
